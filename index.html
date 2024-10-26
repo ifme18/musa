@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUSA - Murang’a University Students Association</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Optional: Include Bootstrap CSS for faster styling -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">MUSA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="text-center text-white d-flex align-items-center" style="background: url('hero-image.jpg') no-repeat center center / cover;">
+    <div class="container">
+      <h1>Welcome to MUSA</h1>
+      <p class="lead">Empowering Students for a Brighter Tomorrow</p>
+      <a href="#about" class="btn btn-primary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2>About Us</h2>
+      <p>Murang’a University Students Association (MUSA) is dedicated to empowering students through academic support, mentorship,leadership and a variety of enriching programs.</p>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Our Programs</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Mentorship</h5>
+              <p class="card-text">Helping students reach their full potential with guidance from experienced mentors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Volunteering</h5>
+              <p class="card-text">Opportunities to give back to the community through volunteer work.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Academic Support</h5>
+              <p class="card-text">Offering resources and support for academic excellence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5">
+    <div class="container text-center">
+      <h2>Our Portfolio</h2>
+      <p>Take a look at some of our recent projects and events.</p>
+      <!-- Add image gallery here -->
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Upcoming Events</h2>
+      <!-- Event Cards -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Annual General Meeting</h5>
+              <p class="card-text">Join us for the annual gathering of all MUSA members to discuss our progress and future plans.</p>
+              <p class="card-text"><small>Date: December 15, 2024</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Community Outreach</h5>
+              <p class="card-text">Participate in our efforts to give back to the community.</p>
+              <p class="card-text"><small>Date: January 10, 2025</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2024 MUSA - Murang’a University Students Association</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
